@@ -25,10 +25,10 @@ Initial findings from incident responders suggested the attack stemmed from a si
 ## Write up
 
 
-Starting first in the lab is downloading the lab files which contains. <br>
-Github.txt <br>
-office.jpg <br>
-WebCam.png <br>
+Starting first in the lab is downloading the lab files which contains.  
+Github.txt  
+office.jpg  
+WebCam.png  
 
  <img width="287" alt="Picture1" src="https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/f36475af-9f4d-4e3b-b03d-9fd432b96333">
 
