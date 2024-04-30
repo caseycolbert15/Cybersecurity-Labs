@@ -1,5 +1,7 @@
-# Blue Team Labs Online Completed labs
+# Blue Team Labs Online Completed labs<br>
 
-  -  [Network Analysis - Web Shell](Network Analysis - Web Shell.md)
+  <sub>--Only retired labs per Cyberdefenders use policy</sub>
+
+  - [Network Analysis Web Shell](Network_Analysis_Web_Shell.md)
   -  a
   -  a
