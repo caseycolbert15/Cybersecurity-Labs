@@ -20,3 +20,13 @@
 
   - Azure Data Explorer (ADX)
   - Kusto Query Language (KQL)
+
+#### Screenshots
+
+Section 4 questions 2 When did valdorias_best_recruiter@gmail.com send an email to Ronnie McLovin?  
+  -You can look at all emails sent from valdorias_best_recruiter@gmail.com but if it was sent to a lot of people we can narrow it down.  
+  -Do this by including either Ronnies full email address or in this case emails that contain the text ronnie  
+![Picture4](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/bb1326f2-52a7-466d-b7b0-3342bc3f36ca)  
+![Picture3](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/8f5ebbd5-c5b9-4a79-813c-a65bd463f2f0)  
+
+
