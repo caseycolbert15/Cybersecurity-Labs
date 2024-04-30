@@ -70,7 +70,7 @@ WebCam.png
   	  ![image022](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/b3aa09c3-e955-4f27-bf49-0040e82dbfba)  
 
 
-5.	Moving on to the 4th we start to look for them personally this question is asking us where they went to school.  
+4.	Moving on to the 4th we start to look for them personally this question is asking us where they went to school.  
     -Doing a standard google search we are able to find an Instagram page as well as a LinkedIn profile.  
   	-This is where we find that they went to Sorbonne Université  
   	  ![image024](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/388ae9e5-9a66-4538-9885-65fb4767313b)  
@@ -79,7 +79,7 @@ WebCam.png
   	  ![image026](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/a76cb9ca-eeb8-461f-9854-b305b232e7e9)  
 
 
-6.	Moving to question 5 we are now looking for the gaming website the insider had an account on.  
+5.	Moving to question 5 we are now looking for the gaming website the insider had an account on.  
     -After doing some further searching I found a QR code on Instagram scanning that brings up their profile on Steam.  
   	  ![image028](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/709b5585-6a29-4a51-8018-85af831ff298)  
   	
@@ -87,21 +87,21 @@ WebCam.png
   	  ![image030](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/3c9de2bc-8f2b-4ace-af7e-5674d0ed6013)  
 
 
-7.	Number 6 is wanting to know the website of their Instagram page which I have been to a few times already.  
+6.	Number 6 is wanting to know the website of their Instagram page which I have been to a few times already.  
       ![image032](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/9bc4c328-320c-42e0-9a8b-3d57dd03005b)  
   	
     -https://www.instagram.com/emarseille99/ is the correct answer to the question.  
   	  ![image034](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/e7305a69-d62a-4737-806e-81a2c1c15077)  
 
 
-8.	This is asking the country that she went to on vacation, using the photo in the top right corner I was able to reverse image search to find that she went to Marina Bay Sands in Singapore.  
+7.	This is asking the country that she went to on vacation, using the photo in the top right corner I was able to reverse image search to find that she went to Marina Bay Sands in Singapore.  
       ![image036](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/df624951-6b00-4516-9054-2a3794550155)  
   	
     -With the questions only wanting the country’s name Singapore was the correct answer.  
   	  ![image038](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/97ad34af-b990-4007-b7bc-a33c3a22d2b8)  
 
 
-9.	For number 8 we are trying to find the city that the insiders family lives in/by.  
+8.	For number 8 we are trying to find the city that the insiders family lives in/by.  
     -After looking through the Instagram photos we find the last 2 mention visiting family and friends.  
     	![image040](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/039ead0c-0261-41b9-9d6b-1382b5cf3fd1)  
   	  ![image042](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/26c150ac-f2ca-49d5-bedb-9bbb5ae7d36b)  
@@ -110,7 +110,7 @@ WebCam.png
   	  ![image044](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/ef2335ab-2c72-4604-adae-7f4286917080)  
 
 
-10.	Questions 9 asks us where the office is located, if we remember back before question 1 we had 2 photos 1 of which was an office photo.  
+9.	Questions 9 asks us where the office is located, if we remember back before question 1 we had 2 photos 1 of which was an office photo.  
       ![image046](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/10092b52-27e3-4ce8-b265-2d1761fa1c2e)  
 
    	-Using this we can find that the office is next to the St Martin’s Church by Bull Ring found in Birmingham, England  
@@ -120,7 +120,7 @@ WebCam.png
    	  ![image050](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/bb82da8a-9de9-4f8d-b7e7-aa174a591d80)  
 
 
-11.	The last question is having us find where the suspect currently is base on the WebCam image provided.  
+10.	The last question is having us find where the suspect currently is base on the WebCam image provided.  
     -After a quick reverse search on the image I was able to identify it at Notre Dame University in Indiana.  
    	  ![image052](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/6084c99e-3aaf-4741-9dcc-4365fcac6eed)  
 
