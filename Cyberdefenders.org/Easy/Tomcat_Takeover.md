@@ -72,7 +72,7 @@ We need to investigate this incident further.
 
   -If you have trouble finding the packets you can also filter by  
 
-    -ip.addr==14.0.0.120 && http.user_agent  
+    ip.addr==14.0.0.120 && http.user_agent  
 
   -This will only return packets that are from IP 14.0.0.120 and packets that have something in the User-Agent field.  
     ![Question4c](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/9d6ba1ec-653b-44ce-a46e-c9736a0d4c57)  
@@ -90,7 +90,7 @@ We need to investigate this incident further.
   -Right after this we also see /manager attempting to be connected to with admin credentials representing an admin console.  
     ![Question5a](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/a25960ae-7ece-4047-b197-81239ec14755)  
 
-  -Using /manager will give our answer for queston 5  
+  -Using /manager will give our answer for queston 5.  
     ![Question5b](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/a6b62168-53ce-4ade-ac64-fa86aa30767f)  
 
 </details>
@@ -98,28 +98,56 @@ We need to investigate this incident further.
 <details>
 <summary>Q6 Upon accessing the admin panel, the attacker made attempts to brute-force the login credentials. From the data, can you identify the correct username and password combination that the attacker successfully used for authorization?</summary><br>
 
--
+  -Looking through the attempts to access manager we can see many failed attempts at the password.  
+  -However it does eventually connect, looking at the authorization information in the packet we can see they used admin:tomcat  
+    ![Question6a](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/b7c1e9be-843d-41e6-b1c5-27b7ad3cecd6)  
+
+  -Using the credentials in this format gives us the answer for question 6.  
+    ![Question6b](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/0c456c47-2d29-47e5-a443-544d62982b8e)  
 
 </details>
 
 <details>
 <summary>Q7 Once inside the admin panel, the attacker attempted to upload a file with the intent of establishing a reverse shell. Can you identify the name of this malicious file from the captured data?</summary><br>
 
--
+  -Since this question involves uploading to the computer we want to look for a POST command which sends data to the target IP.  
+  -Here we find the packet and after looking at the data in the packet we find a file name JXQOZY.war was uploaded to /manager  
+    ![Question7a](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/92495ee8-b2c7-4796-ad9d-d1b8078da9e5)  
+
+  -JXQOZY.war will be our answer for questions 7.  
+    ![Question7b](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/6281ce9e-0f0c-4b1d-bdf1-88b65f4979de)  
 
 </details>
 
 <details>
 <summary>Q8 Upon successfully establishing a reverse shell on our server, the attacker aimed to ensure persistence on the compromised machine. From the analysis, can you determine the specific command they are scheduled to run to maintain their presence?</summary><br>
 
--
+  -From here we need to determine what commands were sent to the victims PC.  
+  -Payloads sent are sent as TCP payloads, we can find these a few different ways.  
+  -We can use a filter to only include packets with a TCP payload  
+
+    ip.addr==14.0.0.120 && tcp.payload  
+
+  -Doing this we can see the packets and the payload of each packet sent to find the commands used.  
+    ![Question8e](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/01e04b3f-be63-417f-8268-09422e75948c)  
+
+  -Or what would likely be easier is to find one of these packets and select follow TCP Stream.  
+    ![Question8a](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/a35199a8-42b6-4f68-b152-567268f4f03c)  
+
+  -This will show us all the data that went along with that connection session.  
+    ![Question8b](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/64c02308-f17a-4ab4-8eb6-a7b02739c856)  
+
+  -Once we have pulled up the stream we can see the /bin/bash command, copying that command will give us our final answer.  
+    ![Question8d](https://github.com/caseycolbert15/Cybersecurity-Labs/assets/165977507/32b294c4-47c3-4e7a-b9eb-61865e64185f)  
 
 </details>
 
 <details>
 <summary>Summary</summary><br>
 
--
+This was a very well designed and relatively simple lab that allowed you to explore the functions of a packet analizer.
+There were many other techniques and filters that could have been used to more quickly find some of the answers that I did not go over.
+This lab also shows how essential it is to know how to use a packet analizer and what IOCs to look for during your hunt.
 
 </details>
 
