@@ -6,7 +6,7 @@
    
   <sub>--Only retired labs per Cyberdefenders use policy</sub>
 
-  - <a href="Easy/Lespion.md"><img src="https://img.shields.io/badge/-Lespion-1a2a69?&style=for-the-badge&logo=cyberdefenders&logoColor=white" /></a>
+  - <a href="Threat_Intel/Cyberdefenders/Lespion.md"><img src="https://img.shields.io/badge/-Lespion-1a2a69?&style=for-the-badge&logo=cyberdefenders&logoColor=white" /></a>
   - [Insider](Easy/Insider.md)
   - [GrabThePhisher](Easy/GrabThePhisher.md)
   - [RedLine](Easy/RedLine.md)
